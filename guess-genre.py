@@ -7,13 +7,13 @@ def main():
     print("Guess the music genre!")
 
     #listing out all the genres in a list called genres with their corresponding clues in a list called clues **in the same order**
-    genres = ["classical", "kpop", "jpop", "jazz", "rock", "traditional", "country"]
+    genres = ["Classical", "KPOP", "JPOP", "Jazz", "Rock", "Traditional", "Country"]
     clues = ["Orchestra", "TWICE", "Yoasobi", "Louis Armstrong", "MCR", "Gamelan", "Acoustic guitar with southern accent"]
     
     #letting the computer choose one specific genre and *automatically* choose the clue that correspond to that genre
-    s = len(genres)
+    s = len(genres) - 1
     x = random.randint(0, s)
-    genre = genres[x]
+    genre = genres[x].lower()
     clue = clues[x]
     
     user_guess = "None"

@@ -4,4 +4,4 @@ This page is created as part of the python class held by Ju Ping and Diana for i
 
 To run the programme, readers may open the file `guess-genre.py` here on github and paste it on any online python compiler such as [Programmiz](https://www.programiz.com/python-programming/online-compiler/). For readers who have Git installed, they may download this repository by typing `git clone https://github.com/ezkiluzair/PSC-python-class` in Command Prompt and run the file `guess-genre.py` themselves.
 
-For further details on how the programme should run, please refer to Wiki: [How it Runs](https://github.com/ezkiluzair/PSC-python-class/wiki#how-it-runs).
+For further details on how the programme should run, please refer Wiki: [How it Runs](https://github.com/ezkiluzair/PSC-python-class/wiki#how-it-runs).
